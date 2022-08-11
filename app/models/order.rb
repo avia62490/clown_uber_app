@@ -1,4 +1,4 @@
 class Order < ApplicationRecord
-  belongs_to :users
-  belongs_to :clowns
+  belongs_to :clown
+  belongs_to :user
 end

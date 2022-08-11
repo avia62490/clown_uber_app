@@ -1,0 +1,18 @@
+###Orders index
+get http://localhost:3000/orders
+
+###Order Show
+GET http://localhost:3000/orders/2
+
+### Order Create
+POST http://localhost:3000/orders
+Content-Type: application/json
+
+{
+  "user_id": 2,
+  "clown_id": 3,
+  "date": "11Nov2027",
+  "time": "12:00",
+  "event": "Reunion"
+}
+
